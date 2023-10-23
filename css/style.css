@@ -35,5 +35,112 @@
     font-style: normal;
     font-display: swap;
 }
+body {
+    height: 100vh;
+    background-color: #fffaf6;
+}
+/******debut du header*********/
+header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    height: 50px; /**hauteur de la UL**/
+    display: flex; /**premettre aux enfants liste les uns a coté des autres**/
+    list-style: none; /* enleve les ronds de la liste */
+    align-items: center; /**répartition sur la hauteur**/
+    justify-content: flex-end; /*repartition sur la largeur*/
+    padding: 20px;
+}
+header nav ul li {
+    margin : 0 20px;
+    padding: 30px;
+}
+header nav ul li a{
+    text-decoration: none;/****enleve le soulignement****/
+    color: #5D3222;
+    font-family: 'Fjalla One';
+    margin: 10px;
+    transition: 0.5s;
+    padding-top: 20px;
+}
+header nav ul li a:hover {
+    border-bottom: 2px solid  #5D3222; /** ajoute une bordure en bas lors du survol de couleur blanche */
+}
+#logo{
+    font-family:'Alex Brush';
+    font-size: 60px;
+    font-weight: 400;
+    color: #5D3222;
+    position: absolute;
+    line-height: 75px;
+width: 335px;
+height: 96px;
+left: 58px;
+top: 15px;
+
+
+}
+.first{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background: url(/images/sect1\ img1.png);
+    background-repeat: no-repeat;
+    background-position: left ;
+    background-size: 550px 800px;
+    
+ 
+
+}
+
+.sect2{
+      
+        height: 400px;
+        width: 647px;
+    height: 795px;
+}
+h1{
+position: absolute;
+width: 677px;
+height: 260px;
+left: 192px;
+top: 279px;
+
+font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 65px;
+
+color: #5D3222;
+}
+.zen1{
+ border-top-right-radius: 100px;
+position: absolute;
+width: 647px;
+height: 795px;
+left: 787px;
+top: 100px;
+border-radius: 100px 100px 0px 0px;}
+
+.bt1{
+position: absolute;
+width: 230px;
+height: 57px;
+left: 202px;
+top: 617px;
+background: #D9D7C5;
+border-radius: 0px 20px;
+border: none;
+font-family: 'Prata';
+font-size: 30px;
+color: #5D3222;
+
+}
 
 
