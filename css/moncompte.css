@@ -1,0 +1,146 @@
+body {
+    height: 100vh;
+    background-color: #FFFAF6;
+}
+/******debut du header*********/
+* {
+    margin: 0;
+    padding: 0;
+}
+/*********
+fonts Fjalla One
+*********/
+@font-face {
+    font-family: 'Fjalla One';
+    src: url('../fonts/FjallaOne-Regular.eot');
+    src: url('../fonts/FjallaOne-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FjallaOne-Regular.woff2') format('woff2'),
+        url('../fonts/FjallaOne-Regular.woff') format('woff'),
+        url('../fonts/FjallaOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/*fin fonts*/
+
+/*********
+fonts Alex Brush
+*********/
+
+@font-face {
+    font-family: 'Alex Brush';
+    src: url('../fonts/AlexBrush-Regular.eot');
+    src: url('../fonts/AlexBrush-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AlexBrush-Regular.woff2') format('woff2'),
+        url('../fonts/AlexBrush-Regular.woff') format('woff'),
+        url('../fonts/AlexBrush-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/*fin fonts*/
+
+
+html {
+    scroll-behavior: smooth;/*ajoute un effet au scroll vers les a */
+}
+header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul {
+    height: 50px; /**hauteur de la UL**/
+    display: flex; /**premettre aux enfants liste les uns a coté des autres**/
+    list-style: none; /* enleve les ronds de la liste */
+    align-items: center; /**répartition sur la hauteur**/
+    justify-content: flex-end; /*repartition sur la largeur*/
+}
+header nav ul li {
+    margin : 0 20px;
+    padding: 30px;
+}
+header nav ul li a{
+    text-decoration: none;/****enleve le soulignement****/
+    color: #5D3222;
+    font-family: 'Fjalla One';
+    margin: 10px;
+    transition: 0.5s;
+}
+header nav ul li a:hover {
+    border-bottom: 2px solid  #5D3222; /** ajoute une bordure en bas lors du survol de couleur blanche */
+}
+#logo{
+    font-family:'Alex Brush';
+    size: 60px;
+    color: #5D3222;
+    margin-left: 30px;
+}
+.moncompte{
+   
+    background: url("../images/beaute-spa.jpg") center fixed ;
+    background-size: cover;
+    height: 810px;
+    width: 1361px;   
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  
+}
+.container-formulaire{
+    font-family: 'Fjalla One';
+    width: 481px;
+    height: 486px;
+    background: #F2EAE4;
+    border-radius: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.petit-bonhomme{
+    position: absolute;
+    top: 0;
+    transform: translateY(25%);
+   
+}
+
+
+#email,#pwd {
+    height: 50px;
+    width: 330px;
+    background: #FFFFFF;
+}
+span{
+    font-family: 'Fjalla One';
+    color: #5D3222;
+    font-size: 16px;
+    font-weight: bold;  
+}
+a{
+    font-family: 'Fjalla One';
+    margin-left: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #5D3222;
+    font-size: 16px;
+    font-weight: bold;
+}
+button{
+    font-family: 'Fjalla One';
+    margin-top: 50px;
+    width: 324px;
+    height: 50px;
+    background: #C9856C;
+    border-radius: 20px 0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+
+
+}
+
+
+
