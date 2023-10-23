@@ -104,7 +104,7 @@ top: 15px;
         width: 647px;
     height: 795px;
 }
-h1{
+#text1{
 position: absolute;
 width: 677px;
 height: 260px;
@@ -142,5 +142,199 @@ font-size: 30px;
 color: #5D3222;
 
 }
+.second{
+        height: 50%;
+        padding-top: 0px;
+        padding-bottom: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        background: url(/images/Group\ 28section2.png);
+        background-repeat: no-repeat;
+        background-position: right;
+}
+.title1{
+    width: 561px;
+    height: 195px;
+}
+.msg1{
+    width: 270px;
+    height: 483px;
+    position: relative;
+    margin: 20px;
+}
+.mere1{
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.contain2{
+    background-color: #f2e7dc;
+    width: 268px;
+    height: 263px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.contain1 > img{
+    width: 266.97px;
+    height: 285.62px;
+    border-radius: 100px 100px 0px 0px;
+    position: absolute;
+    left: 0;
+    top: 0;
 
+}
+.contain2 >h2{
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    color: #5D3222;
+    position: absolute;
+    bottom: 110px;
+    left: 70px;
+}
+.contain2 > p{
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    position: absolute;
+    left: 35px;
+    bottom: 80px;
+    color: #5D3222;
+}
+.contain2 >button {
+    width: 115px;
+    height: 33px;
+    background: #C9856C;
+    border-radius: 0px 20px;
+    border: none;
+    position: absolute;
+    bottom: 30px;
+    left: 70px;
+    font-size: 18px;
+    color: #f2e7dc;
+    font-family: 'Prata';
+    font-style: normal;
+}
+#block1{
+    position: relative;
+    top: 100px;
+}
+#block2{
+    position: relative;
+    top: 100px;
+}
+.title1 > h3{
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 400;
+    color: #5D3222;
+    text-align: left;
+    padding-top: 100px;
+
+}
+.title1 >h1 {
+font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+color: #5D3222;
+text-align: justify;
+position: absolute;
+left: 500px;
+padding-top: 20px;
+
+}
+.last{
+    height: 100%;
+        padding-top: 100px;
+        padding-bottom: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        background: url(/images/Ellipse\ 22.png);
+        background-repeat: no-repeat;
+        background-position: left 300px;
+      
+}
+.carte{
+    width: 1296px;
+    height: 480px;
+    padding: 10px;
+    background: #D9D9D9;
+    border-radius: 0px 100px;
+
+}
+.carte >h3 {
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #5D3222;
+    text-align: left;
+    margin-left: 50px;
+    padding-top: 50px;
+    
+}
+.carte >h1 {
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 65px;
+    color: #5D3222;
+    text-align: left;
+    margin-left: 50px;
+}
+.carte >p {
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #5D3222;
+    text-align: left;
+    margin-left: 50px;
+}
+.carte> button{
+    width: 185px;
+    height: 45px;
+    margin-top: 10px;
+    background: #C9856C;
+    border-radius: 0px 20px;
+    border: none;
+    position: absolute;
+    left: 155px;
+    font-family: 'Prata';
+    font-size: 18px;
+    color: #fff;
+    
+}
+
+.carte1 >img {
+    width: 395.95px;
+    height: 486.96px;
+    border-radius: 100px 100px 0px 0px;
+    position: absolute;
+    right: 300px;
+    top: 2100px;;
+
+
+}
 
