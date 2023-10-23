@@ -104,14 +104,14 @@ header nav ul li a:hover {
     position: absolute;
     top: 0;
     transform: translateY(25%);
-   
+  
 }
-
-
 #email,#pwd {
     height: 50px;
     width: 330px;
     background: #FFFFFF;
+    border-radius: 10px;
+   
 }
 span{
     font-family: 'Fjalla One';
@@ -138,8 +138,6 @@ button{
     color: white;
     font-size: 16px;
     cursor: pointer;
-
-
 }
 
 
