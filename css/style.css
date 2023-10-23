@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'Alex Brush';
+    src: url('/fonts/Alex_Brush/AlexBrush-Regular.eot');
+    src: url('/fonts/Alex_Brush/AlexBrush-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Alex_Brush/AlexBrush-Regular.woff2') format('woff2'),
+        url('/fonts/Alex_Brush/AlexBrush-Regular.woff') format('woff'),
+        url('/fonts/Alex_Brush/AlexBrush-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Fjalla One';
+    src: url('/fonts/Fjalla_One/FjallaOne-Regular.eot');
+    src: url('/fonts/Fjalla_One/FjallaOne-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Fjalla_One/FjallaOne-Regular.woff2') format('woff2'),
+        url('/fonts/Fjalla_One/FjallaOne-Regular.woff') format('woff'),
+        url('/fonts/Fjalla_One/FjallaOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Prata';
+    src: url('/fonts/Prata/Prata-Regular.eot');
+    src: url('/fonts/Prata/Prata-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Prata/Prata-Regular.woff2') format('woff2'),
+        url('/fonts/Prata/Prata-Regular.woff') format('woff'),
+        url('/fonts/Prata/Prata-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
