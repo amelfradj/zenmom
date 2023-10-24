@@ -73,11 +73,6 @@ header nav ul li a{
     color: #5D3222;
     font-family: 'Fjalla One';
     margin: 10px;
-    transition: 0.5s;
-}
-
-header nav ul li a:hover {
-    border-bottom: 2px solid  #5D3222;
 }
 
 #logo{
@@ -100,11 +95,12 @@ main {
     margin-top: 10px;
 }
 
+/*debut description massage*/
+
 aside {
     width: 20%;
     height: 100%;
 }
-
 
 #description-massage {
     border: 2px solid red;
@@ -148,6 +144,10 @@ aside img {
     margin: 10px;
 }
 
+/*fin description massage*/
+
+/*debut form + intercalaires*/
+
 section {
     border: 2px solid blue;
     margin-left: 50px;
@@ -186,6 +186,8 @@ section {
     color: #5D3222;
 }
 
+/*fin intercalaires*/
+
 #formulaire {
     border: 2px solid purple;
     background-color: white;
@@ -199,7 +201,7 @@ section {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     font-family: 'Prata';
-    font-size: 14px;
+    font-size: 12px;
     color: #5D3222;
 }
 
@@ -234,31 +236,53 @@ form input {
     right: 5%;
 }
 
-form img {
-    width: 15px;
-    height: 15px;
+/*fin zone a ne pas modifier*/
+
+.lesmasseurs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#lieu {
-    width: 30%;
-    margin-left: 25px;
-    border: none;
+
+.profilmasseur {
+    border: 2px solid pink;
     background-color: #F2E7DC;
-    height: 25px;
-    border-radius: 5px;
-}
- 
-.lieu {
-    margin-left: 25px;
+    width: 22%;
     margin-top: 10px;
-    margin-bottom: 5px;
-    font-family: 'Fjalla One';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
+.profilmasseur h3 {
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.profilmasseur .chevron {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+
+.photomasseur {
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+
+
+/*bouton a ne pas modifier*/
 .suivant {
     width: 150px;
     height: 40px;
@@ -269,7 +293,7 @@ form img {
     font-family: 'Prata';
     font-size: 14px;
     position: absolute;
-    bottom: 25px;
-    right: 35px;
+    bottom: 10px;
+    right: 30px;
     cursor: pointer;
 }
