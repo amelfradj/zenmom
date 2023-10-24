@@ -40,12 +40,17 @@
 body {
     height: 100vh;
     background-color: #FFFAF6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 /*debut header*/
 
 header{
     height: 70px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -88,19 +93,23 @@ header nav ul li a:hover {
 main {
     border: 2px solid green;
     width: 90%;
+    height: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
 }
 
 aside {
     width: 20%;
+    height: 100%;
 }
 
 
 #description-massage {
     border: 2px solid red;
     width: 100%;
+    height: 100%;
     background-color: #F2E7DC;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -113,10 +122,11 @@ aside {
 
 #description-massage p {
     width: 90%;
+    height: 100%;
 }
 
 aside img {
-    height: 75%;
+    height: 65%;
     width: 100%;
     border-top-left-radius: 80px;
     border-top-right-radius: 80px;
@@ -134,21 +144,132 @@ aside img {
 .description {
     font-family: 'Prata';
     font-style: normal;
-    font-size: 14px;
+    font-size: 12px;
     margin: 10px;
 }
 
 section {
     border: 2px solid blue;
     margin-left: 50px;
-    padding: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 70%;
+    height: 100%;
 }
 
-#tunnel {
-    width: 500px;
+#buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 10%;
+}
+
+#jereservepourmoi, #jaiunecartecadeau {
+    width: 49%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: none;
+    font-family: 'Prata';
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#jereservepourmoi {
+    background-color: #C9856C;
+    color: white;
+}
+
+#jaiunecartecadeau {
+    background-color: #F2E7DC;
+    color: #5D3222;
+}
+
+#formulaire {
+    border: 2px solid purple;
+    background-color: white;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-family: 'Prata';
+    font-size: 14px;
+    color: #5D3222;
 }
 
 form {
-    background-color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+form h2 {
+    padding-bottom: 40px;
+    margin-top: 10px;
+}
+
+form input {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.fjalla {
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#tunnel {
+    width: 90%;
+    position: absolute;
+    top: 15%;
+    right: 5%;
+}
+
+form img {
+    width: 15px;
+    height: 15px;
+}
+
+#lieu {
+    width: 30%;
+    margin-left: 25px;
+    border: none;
+    background-color: #F2E7DC;
+    height: 25px;
+    border-radius: 5px;
+}
+ 
+.lieu {
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+
+}
+
+.suivant {
+    width: 150px;
+    height: 40px;
+    background: #C9856C;
+    border-radius: 0px 20px;
+    color: white;
+    border: none;
+    font-family: 'Prata';
+    font-size: 14px;
+    position: absolute;
+    bottom: 25px;
+    right: 35px;
+    cursor: pointer;
 }

@@ -28,22 +28,25 @@
         </div>
        </aside>
        <section>
-         <button>Je réserve pour moi</button>
-         <button>J'ai une carte cadeau</button>
+        <div id="buttons">
+         <button id="jereservepourmoi">Je réserve pour moi</button>
+         <button id="jaiunecartecadeau">J'ai une carte cadeau</button>
+        </div>
 
+       <div id="formulaire">
          <form>
-            <h2>Personnalisation</h2>
+            <h2 class="fjalla">Personnalisation</h2>
             <img id="tunnel" src="../images/tunnel1.png">
 
             <form>
-                <legend>La durée</legend>
+                <legend class="fjalla">La durée</legend>
                 <label><input type="checkbox" name="checkbox" />30min - 30€</label><br>
                 <label><input type="checkbox" name="checkbox" />45min - 45€</label><br>
                 <label><input type="checkbox" name="checkbox" />60min - 60€</label>
             </form>
 
             <form>
-                <legend>Choix des huiles</legend>
+                <legend class="fjalla">Choix des huiles</legend>
                 <div>
                    <label><input type="checkbox" name="checkbox" />Huile de lavande</label>
                    <img src="../images/info.png" alt="Infos">
@@ -58,12 +61,14 @@
                 </div>
             </form>
 
-                <label for="lieu">Lieu</label>
+                <label for="lieu" class="lieu">Lieu</label>
                 <input type="lieu" name="lieu" id="lieu" required/><br>
 
-                <input type="submit" value="Suivant"/>
+                <input class="suivant" type="submit" value="Suivant"/>
          </form>
+        </div>
        </section>
+
     </main>
 
     <footer>
