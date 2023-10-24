@@ -7,39 +7,42 @@ body {
     margin: 0;
     padding: 0;
 }
-/*********
-fonts Fjalla One
-*********/
-@font-face {
-    font-family: 'Fjalla One';
-    src: url('../fonts/FjallaOne-Regular.eot');
-    src: url('../fonts/FjallaOne-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/FjallaOne-Regular.woff2') format('woff2'),
-        url('../fonts/FjallaOne-Regular.woff') format('woff'),
-        url('../fonts/FjallaOne-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-/*fin fonts*/
-
-/*********
-fonts Alex Brush
-*********/
-
+/****font****/
 @font-face {
     font-family: 'Alex Brush';
-    src: url('../fonts/AlexBrush-Regular.eot');
-    src: url('../fonts/AlexBrush-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/AlexBrush-Regular.woff2') format('woff2'),
-        url('../fonts/AlexBrush-Regular.woff') format('woff'),
-        url('../fonts/AlexBrush-Regular.ttf') format('truetype');
+    src: url('../fonts/Alex_Brush/AlexBrush-Regular.eot');
+    src: url('../fonts/Alex_Brush/AlexBrush-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Alex_Brush/AlexBrush-Regular.woff2') format('woff2'),
+        url('../fonts/Alex_Brush/AlexBrush-Regular.woff') format('woff'),
+        url('../fonts/Alex_Brush/AlexBrush-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
-/*fin fonts*/
+@font-face {
+    font-family: 'Fjalla One';
+    src: url('../fonts/Fjalla_One/FjallaOne-Regular.eot');
+    src: url('../fonts/Fjalla_One/FjallaOne-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Fjalla_One/FjallaOne-Regular.woff2') format('woff2'),
+        url('../fonts/Fjalla_One/FjallaOne-Regular.woff') format('woff'),
+        url('../fonts/Fjalla_One/FjallaOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Prata';
+    src: url('../fonts/Prata/Prata-Regular.eot');
+    src: url('../fonts/Prata/Prata-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Prata/Prata-Regular.woff2') format('woff2'),
+        url('../fonts/Prata/Prata-Regular.woff') format('woff'),
+        url('../fonts/Prata/Prata-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
+/*fin fonts*/
 
 html {
     scroll-behavior: smooth;/*ajoute un effet au scroll vers les a */
@@ -72,11 +75,12 @@ header nav ul li a:hover {
 }
 #logo{
     font-family:'Alex Brush';
-    size: 60px;
+    font-size: 60px;
     color: #5D3222;
     margin-left: 30px;
 }
 .moncompte{
+   
    
     background: url("../images/beaute-spa.jpg") center fixed ;
     background-size: cover;
@@ -87,6 +91,19 @@ header nav ul li a:hover {
     align-items: center;
     position: relative;
     overflow: hidden;
+    border: 1px solid rgba(226, 220, 220, 0.26);
+    margin: 0 auto;
+    border-radius: 20px 0;
+    margin-top: 30px;
+  
+}
+svg{
+    
+    fill: #C9856C;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+   
   
 }
 .container-formulaire{
@@ -103,7 +120,7 @@ header nav ul li a:hover {
 .petit-bonhomme{
     position: absolute;
     top: 0;
-    transform: translateY(25%);
+    transform: translateY(40%);
   
 }
 #email,#pwd {
