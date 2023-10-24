@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Je réserve pour moi</title>
-    <link rel="stylesheet" href="../css/style-jereserve3.css">
+    <link rel="stylesheet" href="../css/style-jereserve4.css">
 </head>
 
 <body>
@@ -35,25 +35,35 @@
 
        <div id="formulaire">
          <form>
-            <h2 class="fjalla">Date et heure</h2>
-            <img id="tunnel" src="../images/tunnel3.png">
+            <h2 class="fjalla">Identification</h2>
+            <img id="tunnel" src="../images/tunnel4.png">
+            
+           <div class="contenu">
+            <form class="connexion">
+               <legend class="fjalla">J'ai déjà un compte</legend>
 
-            <div class="horaires">
-             <div class="date">
-                <h3>Selectionner une date</h3>
-                <img src="../images/calendrier.jpg" alt="">
-             </div>
+               <label for="email" class="email">E-mail</label><br>
+               <input type="email" name="email" id="email" required/><br>
 
-             <div class="horaire">
-                <h3>Selectionner un horaire</h3>
-                <img src="../images/horaires.png" alt="">
-             </div>
+               <label for="mdp" class="mdp">Mot de passe</label><br>
+               <input type="password" name="mdp" id="mdp" required/><br>
+
+
+               <div class="optionsconnextion">
+                <label><input type="checkbox" name="checkbox" />Se souvenir de moi</label>
+                <p><a href="#">Mot de passe oublié</a></p>
+               </div>
+
+               <input class="meconnecter" type="submit" value="Me connecter"/>
+           </form>
+
+            <div class="creeruncompte">
+            <legend class="fjalla">Nouvelle sur Zen Mom ?</legend>
+
+            <button>Créer un compte</button>
             </div>
+           </div>
 
-
-            <a href="#">
-               <input class="suivant" type="submit" value="Suivant"/>
-            </a>
          </form>
         </div>
        </section>
