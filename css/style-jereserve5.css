@@ -224,45 +224,88 @@ form input {
     right: 5%;
 }
 
-/********/
+/**********/
 
 
-form img {
-    width: 15px;
-    height: 15px;
-}
-
-#lieu {
-    width: 30%;
-    margin-left: 25px;
-    border: none;
+.contenu {
     background-color: #F2E7DC;
-    height: 25px;
-    border-radius: 5px;
+    border-radius: 25px;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
- 
-.lieu {
-    margin-left: 25px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    font-family: 'Fjalla One';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
 
+.birthdate input {
+    margin-left: 5px;
 }
-/********/
-.suivant {
-    width: 150px;
-    height: 40px;
+
+.center input {
+    font-family: 'Prata';
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+    width: 40%;
+}
+
+.contenu p {
+    width: 95%;
+    margin: 5px;
+    font-family: 'Prata';
+    font-size: 10px;
+}
+
+.nomprenom, .birthdate {
+    flex-direction: row;
+}
+
+.center {
+    width: 60%;
+    margin: 12px;
+}
+
+.center input {
+    font-family: 'Prata';
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 45%;
+    padding-left: 10px;
+}
+
+.valider {
+    margin-top: 15px;
+}
+
+/*********/
+
+.seconnecter {
+    width: 300px;
+    height: 30px;
+}
+
+.valider {
+    margin-top: 15px;
+    width: 300px;
+    height: 30px;
+}
+
+.seconnecter, .valider {
     background: #C9856C;
     border-radius: 0px 20px;
     color: white;
     border: none;
     font-family: 'Prata';
     font-size: 14px;
-    position: absolute;
-    bottom: 15px;
-    right: 35px;
     cursor: pointer;
+}
+
+#between {
+    border-top: 2px solid #5D3222;
+    height: 10px;
+    width: 25%;
 }
