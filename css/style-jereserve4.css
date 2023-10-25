@@ -242,16 +242,72 @@ form input {
     border: 2px solid blueviolet;
     height: 80%;
     width: 100%;
+    padding: 10px;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
+}
+
+#email, #mdp {
+    height: 35px;
+    width: 75%;
+    border: none;
+    border-radius: 10px;
+    background-color: #EFE1DC;
+    padding-left: 10px;
+    font-family: 'Prata';
+    font-size: 14px;
 }
 
 .connexion {
     border: 2px solid green;
+    width: 60%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
+.connexion legend, .creeruncompte legend {
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
 
-.creeruncomte {
+.optionsconnexion {
+    border: 2px solid pink;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.creeruncompte {
     border: 2px solid red;
+    width: 60%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.meconnecter, .creeruncompte button {
+    width: 75%;
+    height: 30px;
+    background: #C9856C;
+    border-radius: 0px 20px;
+    color: white;
+    border: none;
+    font-family: 'Prata';
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
 }
