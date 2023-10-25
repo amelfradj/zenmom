@@ -86,7 +86,6 @@ header nav ul li a{
 /*fin header*/
 
 main {
-    border: 2px solid green;
     width: 90%;
     height: 80%;
     display: flex;
@@ -103,7 +102,6 @@ aside {
 }
 
 #description-massage {
-    border: 2px solid red;
     width: 100%;
     height: 100%;
     background-color: #F2E7DC;
@@ -149,7 +147,6 @@ aside img {
 /*debut form + intercalaires*/
 
 section {
-    border: 2px solid blue;
     margin-left: 50px;
     margin-right: 20px;
     margin-top: 20px;
@@ -189,7 +186,6 @@ section {
 /*fin intercalaires*/
 
 #formulaire {
-    border: 2px solid purple;
     background-color: white;
     width: 100%;
     height: 90%;
@@ -239,7 +235,6 @@ form input {
 /*fin zone a ne pas modifier*/
 
 .horaires {
-    border: 2px solid khaki;
     width: 100%;
     height: 80%;
     display: flex;
@@ -249,7 +244,6 @@ form input {
 }
 
 .date {
-    border: 2px solid black;
     width: 50%;
     height: 100%;
     display: flex;
@@ -272,7 +266,6 @@ form input {
 }
 
 .horaire {
-    border: 2px solid red;
     width: 50%;
     height: 100%;
     display: flex;
