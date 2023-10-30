@@ -291,7 +291,7 @@ form input {
     flex-direction: column;
 }
 
-.meconnecter, .creeruncompte button {
+.meconnecter , .creeruncompte button {
     width: 75%;
     height: 30px;
     background: #C9856C;
