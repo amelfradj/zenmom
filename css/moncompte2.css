@@ -1,0 +1,175 @@
+body {
+    height: 100vh;
+    background-color: #FFFAF6;
+}
+/******debut du header*********/
+* {
+    margin: 0;
+    padding: 0;
+}
+/****font****/
+@font-face {
+    font-family: 'Alex Brush';
+    src: url('../fonts/Alex_Brush/AlexBrush-Regular.eot');
+    src: url('../fonts/Alex_Brush/AlexBrush-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Alex_Brush/AlexBrush-Regular.woff2') format('woff2'),
+        url('../fonts/Alex_Brush/AlexBrush-Regular.woff') format('woff'),
+        url('../fonts/Alex_Brush/AlexBrush-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Fjalla One';
+    src: url('../fonts/Fjalla_One/FjallaOne-Regular.eot');
+    src: url('../fonts/Fjalla_One/FjallaOne-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Fjalla_One/FjallaOne-Regular.woff2') format('woff2'),
+        url('../fonts/Fjalla_One/FjallaOne-Regular.woff') format('woff'),
+        url('../fonts/Fjalla_One/FjallaOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Prata';
+    src: url('../fonts/Prata/Prata-Regular.eot');
+    src: url('../fonts/Prata/Prata-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Prata/Prata-Regular.woff2') format('woff2'),
+        url('../fonts/Prata/Prata-Regular.woff') format('woff'),
+        url('../fonts/Prata/Prata-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*fin fonts*/
+
+
+html {
+    scroll-behavior: smooth;/*ajoute un effet au scroll vers les a */
+}
+header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul {
+    height: 50px; /**hauteur de la UL**/
+    display: flex; /**premettre aux enfants liste les uns a coté des autres**/
+    list-style: none; /* enleve les ronds de la liste */
+    align-items: center; /**répartition sur la hauteur**/
+    justify-content: flex-end; /*repartition sur la largeur*/
+}
+header nav ul li {
+    margin : 0 20px;
+    padding: 30px;
+}
+header nav ul li a{
+    text-decoration: none;/****enleve le soulignement****/
+    color: #5D3222;
+    font-family: 'Fjalla One';
+    font-size: 16px;
+    margin: 10px;
+    transition: 0.5s;
+}
+header nav ul li a:hover {
+    border-bottom: 2px solid  #5D3222; /** ajoute une bordure en bas lors du survol de couleur blanche */
+}
+#logo{
+    font-family:'Alex Brush';
+    font-size: 60px;
+    color: #5D3222;
+    margin-left: 30px;
+}
+main{
+    width: 1361px;
+    height: 810px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fjalla One';
+    font-size: 24px;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3);  
+    margin: 0 auto;
+    margin-top: 30px;
+}
+aside{
+    width: 325px;
+    height: 600px;
+    background-color: #F2E7DC;
+    border-radius: 100px 100px 0 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fjalla One';   
+    font-size: 20px;
+}
+#imgperso{
+    width: 215px;
+    height: 139px;
+    background-color: white;
+    border: 1px solid rgba(235, 226, 226, 0.363);
+    border-radius:30px 30px 0 0 ;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+button {
+    margin: 15px 0;
+    width: 301px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    color: #5D3222;
+    font-size: 16px;
+    margin-left: 10px;
+    font-family: 'Fjalla One';
+}
+#info{
+  
+    background-color: #C9856C;
+    color: white;
+}
+.container1{
+    width: 877px;
+    height: 600px;
+    background-color: #F2E7DC;
+    border-radius: 30px 30px 0 0;
+    margin: 0 auto;
+    font-family: 'Fjalla One';
+    color: #5D3222;
+    font-size: 20px;
+}
+h2{
+    color: #5D3222;
+    font-size: 24px;
+    border-bottom: 3px solid #5D3222;
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+.cordonnee{
+    margin: 60px 30px;
+}
+#lname, #fname, #birthday, #phone, #email{
+    width: 350px;
+    height: 50px;
+    background-color: white;
+    border-radius: 12px;
+    font-family: 'Fjalla One';
+    color: #5D3222;
+    font-size: 20px; 
+}
+#save{
+    width: 176px;
+    height: 50px;
+    border-radius: 0 20px;
+    color: white;
+    font-family: 'Prata';
+    font-size: 20px;
+    background-color: #C9856C;    
+    margin-left: 75%; 
+}
+
+
+
