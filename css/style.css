@@ -391,4 +391,20 @@ footer div>div>h1>a{
     justify-content: center;
 }
 
-   
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translatex(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.anime {
+    animation: fadeIn 5s ease-out;
+}
+.hidden {
+    opacity: 1;
+}
