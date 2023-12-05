@@ -177,7 +177,7 @@ section {
     color: #5D3222;
 }
 
-#formulaire-e1, #formulaire-e2, #formulaire-e3 {
+#formulaire-e1, #formulaire-e2, #formulaire-e3, #formulaire-e4, #formulaire-e5 {
     background-color: white;
     width: 100%;
     height: 90%;
@@ -191,6 +191,16 @@ section {
     font-family: 'Prata';
     font-size: 14px;
     color: #5D3222;
+}
+section {
+    position: relative;
+}
+
+#formulaire-e2, #formulaire-e3, #formulaire-e4, #formulaire-e5 {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    display: none;
 }
 
 form {
@@ -285,7 +295,7 @@ form img {
 }
 
 .photomasseur {
-    height: 200px;
+    height: 100%;
     width: 100%;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
@@ -357,10 +367,176 @@ div #cache1, #cache2, #cache3 {
     margin-bottom: 30px;
 }
 
+/* etape 4 */
+
+.contenu {
+    height: 80%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#email, #mdp {
+    height: 35px;
+    width: 75%;
+    border: none;
+    border-radius: 10px;
+    background-color: #EFE1DC;
+    padding-left: 10px;
+    font-family: 'Prata';
+    font-size: 14px;
+}
+
+.connexion {
+    width: 60%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.connexion legend, .creeruncompte legend {
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.optionsconnexion {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.creeruncompte {
+    width: 60%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.meconnecter , .creeruncompte button {
+    width: 75%;
+    height: 30px;
+    background: #C9856C;
+    border-radius: 0px 20px;
+    color: white;
+    border: none;
+    font-family: 'Prata';
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+/* étape 5 */
+
+
+
+.contenu {
+    background-color: #F2E7DC;
+    border-radius: 25px;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.birthdate input {
+    margin-left: 5px;
+}
+
+.center input {
+    font-family: 'Prata';
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+    width: 40%;
+}
+
+.contenu p {
+    width: 95%;
+    margin: 5px;
+    font-family: 'Prata';
+    font-size: 10px;
+}
+
+.nomprenom, .birthdate {
+    flex-direction: row;
+}
+
+.center {
+    width: 60%;
+    margin: 12px;
+}
+
+.center input {
+    font-family: 'Prata';
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 45%;
+    padding-left: 10px;
+}
+
+#email {
+background-color: white;
+border-radius: 5px;
+}
+
+.valider {
+    margin-top: 15px;
+}
+
+/*********/
+
+.seconnecter {
+    width: 300px;
+    height: 30px;
+}
+
+.valider {
+    margin-top: 15px;
+    width: 300px;
+    height: 30px;
+}
+
+.seconnecter, .valider {
+    background: #C9856C;
+    border-radius: 0px 20px;
+    color: white;
+    border: none;
+    font-family: 'Prata';
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#between {
+    border-top: 2px solid #5D3222;
+    height: 10px;
+    width: 25%;
+}
 
 
 /********/
-.suivant {
+
+
+#suivant1, #suivant2, #suivant3 {
     width: 150px;
     height: 40px;
     background: #C9856C;

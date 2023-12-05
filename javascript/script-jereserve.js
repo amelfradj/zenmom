@@ -34,19 +34,25 @@ function plusToMoins3() {
 }
 document.getElementById("tiret3").addEventListener("click", plusToMoins3);
 
-/////
+//
+function et1ToEt2() {
+  document.getElementById("formulaire-e2").style.display = "block";
+}
+document.getElementById("suivant1").addEventListener("click", et1ToEt2);
 
-// var bouton = document.getElementById("reserver");
-// bouton.addEventListener("click", function () {
-//   // Récupérer la valeur sélectionnée
-//   var choix = document.getElementsById("reserver").value;
+function et2ToEt3() {
+  document.getElementById("formulaire-e3").style.display = "block";
+}
+document.getElementById("suivant2").addEventListener("click", et2ToEt3);
 
-//   // Rediriger vers la deuxième page avec le choix comme paramètre
-//   window.location.href = "../html/jereserve1.html?choix=" + choix;
-// });
+function et3ToEt4() {
+  document.getElementById("formulaire-e4").style.display = "block";
+}
+document.getElementById("suivant3").addEventListener("click", et3ToEt4);
 
-// // Récupérer le paramètre "choix" de l'URL
-// var urlParams = new URLSearchParams(window.location.search);
-// var choix = urlParams.get("choix");
-// // Afficher le choix sur la page
-// document.body.innerHTML += "<p>Choix : " + choix + "</p>";
+function et4ToEtInsc() {
+  document.getElementById("formulaire-e5").style.display = "block";
+}
+document
+  .getElementsById("creeruncompte")
+  .addEventListener("click", et4ToEtInsc);

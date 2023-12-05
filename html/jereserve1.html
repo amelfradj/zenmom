@@ -65,13 +65,13 @@
                 <label for="lieu" class="lieu">Lieu</label>
                 <input type="lieu" name="lieu" id="lieu" required/><br>
 
-                <a href="../index.html/jereserve2.html"><input class="suivant" type="submit" value="Suivant"/></a> 
+                <button><input id="suivant1" type="submit" value="Suivant"/></button>
          </form>
         </div>
         <!-- FORM ETAPE 1 -->
 
         <!-- FORM ETAPE 2 -->
-        <!-- <div id="formulaire-e2">
+       <div id="formulaire-e2">
             <form>
                <h2 class="fjalla">Choix de votre masseur</h2>
                <img id="tunnel" src="../images/tunnel2.png">
@@ -113,14 +113,14 @@
                    </div>
                </div>
    
-               <a href="#"><input class="suivant" type="submit" value="Suivant"/></a>
+               <button><input id="suivant2" type="submit" value="Suivant"/></button>
                
             </form>
-           </div> -->
+           </div>
            <!-- FORM ETAPE 2 -->
 
            <!-- FORM ETAPE 3 -->
-           <!-- <div id="formulaire-e3">
+           <div id="formulaire-e3">
             <form>
                <h2 class="fjalla">Date et heure</h2>
                <img id="tunnel" src="../images/tunnel3.png">
@@ -138,10 +138,86 @@
                </div>
    
    
-               <a href="#"><input class="suivant" type="submit" value="Suivant"/></a>
+               <button><input id="suivant3" type="submit" value="Suivant"/></button>
             </form>
-           </div> -->
+           </div>
            <!-- FORM ETAPE 3 -->
+
+           <!-- FORM ETAPE 4 -->
+           <div id="formulaire-e4">
+            <form>
+               <h2 class="fjalla">Identification</h2>
+               <img id="tunnel" src="../images/tunnel4.png">
+               
+              <div class="contenu">
+               <div class="connexion">
+                <form>
+                  <legend>J'ai déjà un compte</legend>
+                     <input type="email" name="email" id="email" placeholder="E-mail"/>
+                     <input type="password" name="mdp" id="mdp" placeholder="Mot de passe"/>
+   
+                  <div class="optionsconnexion">
+                     <label><input type="checkbox" name="checkbox" />Se souvenir de moi</label>
+                     <p><a href="#">Mot de passe oublié</a></p>
+                  </div>
+   
+                  <input class="meconnecter" type="submit" value="Me connecter"/>
+                </form>
+             </div>
+   
+             <div class="creeruncompte">
+              <legend>Nouvelle sur Zen Mom ?</legend>
+              <button id="creeruncompte">Créer un compte</button>
+             </div>
+            </div>
+   
+            </form>
+           </div>
+           <!-- FORM ETAPE 4 -->
+
+           <!-- FORM ETAPE 5 -->
+           <div id="formulaire-e5">
+            <form>
+               <h2 class="fjalla">Créer un compte</h2>
+               <img id="tunnel" src="../images/tunnel4.png">
+   
+              <div class="contenu">
+   
+             <div class="center">
+   
+               <div class="nomprenom">
+               <input type="lastname" name="lastname" id="lastname" placeholder="Nom"/>
+   
+               <input type="name" name="name" id="name" placeholder="Prénom"/><br>
+              </div>
+   
+               <input type="email" name="email" id="email" placeholder="E-mail"/><br>
+   
+               <input type="password" name="password" id="password" placeholder="Mot de passe"/><br>
+   
+   
+              <div class="birthdate">
+               <label for="birthdate" class="birthdate">Date de naissance</label>
+               <input type="date" name="birthdate" id="birthdate" value="2023-10-24" min="1965-01-01" max="2004-12-31"/><br>
+              </div>
+              
+              </div>
+   
+               <p>En cliquant sur <b>Créer un compte</b>, vous acceptez nos <b>Conditions générales</b>. Découvrez comment nous recueillons, utilisons et partageons vos données en lisant notre <b>Politique de confidentialité</b> et comment nous utilisons les cookies et autres technologies similaires en consultant notre <b>Politique d’utilisation des cookies</b>. Vous recevrez peut-être des notifications par texto de notre part et vous pouvez à tout moment vous désabonner.</p>
+   
+               <input class="valider" type="submit" value="Créer mon compte"/>
+   
+               <div id="between"></div>
+   
+               <button><input class="seconnecter" type="submit" value="Se connecter"/></button> 
+              
+   
+              </div>
+   
+            </form>
+       
+           </div>
+           <!-- FORM ETAPE 5 -->
 
        </section>
 
