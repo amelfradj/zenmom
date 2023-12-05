@@ -132,29 +132,11 @@ aside {
     margin: 10px;
 }
 
-
 aside img {
     height: 65%;
     width: 100%;
     border-top-left-radius: 80px;
     border-top-right-radius: 80px;
-}
-
-.title {
-    font-family: 'Fjalla One';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    margin: 10px;
-    margin-top: 20px;
-
-}
-
-.description {
-    font-family: 'Prata';
-    font-style: normal;
-    font-size: 12px;
-    margin: 10px;
 }
 
 section {

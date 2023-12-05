@@ -9,25 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-// //stocker le choix des massages et le deriger ver une autre page
-// function reserver(choix) {
-//     // Stocker le choix dans le stockage local
-//     localStorage.setItem("choixMassage", choix);
-
-//     // Rediriger vers la page suivante
-//     window.location.href = "jereserve1.html";
-// }
-
-// // Récupérer le choix du stockage local
-// var choixMassage = localStorage.getItem("choixMassage");
-
-// if (choixMassage) {
-//     // Afficher le choix sur la page
-//     document.getElementsByClassName("title").innerHTML += "<p> : " + choixMassage + "</p>";
-// } else {
-//     // Gérer le cas où le choix n'est pas défini
-//     document.body.innerHTML += "<p>Aucun choix de massage sélectionné</p>";
-// }
+//conserver les infos lors du clique reserver 
 
 function reserver(choix,image, titre, description) {
     // Créer un objet avec toutes les informations du massage
