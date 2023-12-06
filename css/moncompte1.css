@@ -73,69 +73,57 @@ header nav ul li a{
 header nav ul li a:hover {
     border-bottom: 2px solid  #5D3222; /** ajoute une bordure en bas lors du survol de couleur blanche */
 }
+
 #logo{
     font-family:'Alex Brush';
     font-size: 60px;
     color: #5D3222;
     margin-left: 30px;
 }
+
 .moncompte{
-   
-   
     background: url("../images/beaute-spa.jpg") center fixed ;
     background-size: cover;
-    height: 810px;
-    width: 1361px;   
+    height: 100%;
+    width: 100%;   
     display: flex;   
     justify-content: center;
     align-items: center;
-    position: relative;
     overflow: hidden;
-    border: 1px solid rgba(226, 220, 220, 0.26);
-    margin: 0 auto;
-    border-radius: 20px 0;
-    margin-top: 30px;
-  
+    border-radius: 20px 0; 
 }
-svg{
-    
-    fill: #C9856C;
-    width: 160px;
-    height: 160px;
-    object-fit: cover;
-   
-  
+
+.moncompte input, .moncompte button {
+    border: none;
 }
-.container-formulaire{
+
+#container_formulaire_con, #container_formulaire_ins {
     font-family: 'Fjalla One';
-    width: 481px;
-    height: 486px;
+    height: 75%;
+    width: 30%;
     background: #F2EAE4;
     border-radius: 0 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    flex-direction: column;
 }
-.petit-bonhomme{
-    position: absolute;
-    top: 0;
-    transform: translateY(40%);
-  
-}
-#email,#pwd {
-    height: 50px;
-    width: 330px;
-    background: #FFFFFF;
-    border-radius: 10px;
-   
-}
-span{
+
+#container_formulaire_con input {
     font-family: 'Fjalla One';
-    color: #5D3222;
-    font-size: 16px;
-    font-weight: bold;  
+    font-size: 14px;
+    padding-left: 10px;
 }
+
+#email,#pwd{
+    width: 341px;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
 a{
     font-family: 'Fjalla One';
     margin-left: 50px;
@@ -145,11 +133,12 @@ a{
     font-size: 16px;
     font-weight: bold;
 }
-button{
+
+button {
     font-family: 'Fjalla One';
-    margin-top: 50px;
-    width: 324px;
-    height: 50px;
+    margin-top: 25px;
+    width: 350px;
+    height: 35px;
     background: #C9856C;
     border-radius: 20px 0;
     color: white;
@@ -157,5 +146,53 @@ button{
     cursor: pointer;
 }
 
+/* créer un compte  */
+
+form {
+    width: 90%;
+}
+
+.birthdate input {
+    margin-left: 5px_
+}
+
+#container_formulaire_ins p {
+    width:  90%;
+    margin: 5px;
+    font-family: 'Prata';
+    font-size: 12px;
+}
+
+.nomprenom, .birthdate {
+    flex-direction: row;
+}
+
+#container_formulaire_ins input{
+    font-family: 'Fjalla One';
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 45%;
+    padding-left: 10px;
+}
+
+#between {
+    border-top: 2px solid #5D3222;
+    height: 10px;
+    width: 25%;
+}
+
+#container_formulaire_ins #email, #container_formulaire_ins #password, #container-formulaire-ins #birthdate, #container-formulaire-ins h2 {
+    margin-bottom: 10px;
+}
 
 
+/*********/
+
+#container_formulaire_ins {
+    position: absolute;
+    top: 50;
+    left: 50;
+    display: none;
+}

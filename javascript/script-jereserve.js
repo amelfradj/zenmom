@@ -53,6 +53,4 @@ document.getElementById("suivant3").addEventListener("click", et3ToEt4);
 function et4ToEtInsc() {
   document.getElementById("formulaire-e5").style.display = "block";
 }
-document
-  .getElementsById("creeruncompte")
-  .addEventListener("click", et4ToEtInsc);
+document.getElementsById("creeruncompte").addEventListener("click", et4ToEtInsc);

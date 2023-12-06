@@ -4,10 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>massage</title>
-    <meta name="description" content="
-    Le massage post-partum favorise la détente et réduit les douleurs musculaires après l'accouchement, aidant ainsi à la récupération physique.
-    Il peut contribuer à stimuler la circulation sanguine, apportant un soulagement aux nouvelles mamans.
-    Le massage post-partum offre un moment de réconfort et de relaxation essentiel pendant cette période de changement et d'ajustement.">
     <link rel="stylesheet" href="../css/moncompte1.css">
     
 </head>
@@ -27,23 +23,52 @@
     </header>
     <section class="moncompte">
         <!--Mon Compte-->
-        <div class="container-formulaire"> 
-            <div class="petit-bonhomme">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm7.753 18.305c-.261-.586-.789-.991-1.871-1.241-2.293-.529-4.428-.993-3.393-2.945 3.145-5.942.833-9.119-2.489-9.119-3.388 0-5.644 3.299-2.489 9.119 1.066 1.964-1.148 2.427-3.393 2.945-1.084.25-1.608.658-1.867 1.246-1.405-1.723-2.251-3.919-2.251-6.31 0-5.514 4.486-10 10-10s10 4.486 10 10c0 2.389-.845 4.583-2.247 6.305z"/></svg>
-            </div>
-            <!--Début du formulaire-->
+        <div id="container_formulaire_con">
+            <!--Début du formulaire de connexion-->
+            <h2>Connexion</h2>
                 <form >
-                    <label for="email">E-mail : </label><br>
-                    <input type="email" id="email" required name="email"><br><br>
-                    <label for="pwd">Password : </label><br>
-                    <input type="password" id="pwd" name="pwd" required minlength="8" maxlength="16"><br><br>
+                    <label for="email">E-mail :</label><br>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="pwd">Mot de passe :</label><br>
+                    <input type="password" id="pwd" name="pwd" minlength="8" maxlength="16"><br><br>
                     <input type="checkbox" id="se-souvenir" name="se-souvenir" >
-                    <label for="se-souvenir"> <span>Se souvenir de moi</span></label>
-                    <a href="">mot de passe oublié ? </a><br><br>
-                    <a href="compte2.html ">Connexion</a>
+                    <label for="se-souvenir">Se souvenir de moi</label>
+                    <a href="#">Mot de passe oublié ?</a><br><br>
+                    <button id="btn_con" href="compte2.html ">Connexion</button>
+                    <br>
+                    <button id="creeruncompte">Créer un compte</button>
                 </form> 
                 <!--fin du formulaire--> 
         </div>
-    </section>         
+
+        <div id="container_formulaire_ins">
+            <!--Début du formulaire de inscription-->
+            <h2>Créer un compte</h2>
+                <form>
+                   <div class="nomprenom">
+                   <input type="lastname" name="lastname" id="lastname" placeholder="Nom" required/>
+       
+                   <input type="name" name="name" id="name" placeholder="Prénom" required/><br>
+                  </div>
+       
+                   <input type="email" name="email" id="email" placeholder="E-mail" required/><br>
+       
+                   <input type="password" name="password" id="password" placeholder="Mot de passe" required/><br>
+       
+                  <div class="birthdate">
+                   <label for="birthdate" class="birthdate">Date de naissance</label>
+                   <input type="date" name="birthdate" id="birthdate" value="2023-10-24" min="1965-01-01" max="2004-12-31" required/><br>
+                  </div>
+       
+                   <p>En cliquant sur <b>Créer un compte</b>, vous acceptez nos <b>Conditions générales</b>. Découvrez comment nous recueillons, utilisons et partageons vos données en lisant notre <b>Politique de confidentialité</b> et comment nous utilisons les cookies et autres technologies similaires en consultant notre <b>Politique d’utilisation des cookies</b>. Vous recevrez peut-être des notifications par texto de notre part et vous pouvez à tout moment vous désabonner.</p>
+       
+                   <button id="valider" type="submit">Créer mon compte</button>
+        </form>
+        </div>
+                <!--fin du formulaire--> 
+    </section>  
+    
+    <script src="../javascript/moncompte.js"></script>
+
 </body>
 </html>

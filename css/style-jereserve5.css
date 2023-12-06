@@ -46,6 +46,11 @@ body {
     flex-direction: column;
 }
 
+a{
+    text-decoration: none;
+    color: #5D3222;
+}
+
 /*debut header*/
 
 header{
@@ -81,6 +86,7 @@ header nav ul li a{
     color: #5D3222;
     margin-left: 30px;
     font-weight: normal;
+    text-decoration: none;
 }
 
 /*fin header*/
