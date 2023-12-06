@@ -135,7 +135,7 @@ margin-bottom: 50px;
 }
 /************section 2 ***************/
 .second{
-        padding-top: 100px;
+        padding-top: 15%;
         padding-bottom: 100px;
         text-align: center;
         flex-direction: column;
@@ -160,7 +160,7 @@ color: #5D3222;
     color: #5D3222;
 }
 .mere1{
-    padding-top: 100px;
+    padding-top: 3%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
