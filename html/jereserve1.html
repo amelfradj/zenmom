@@ -32,30 +32,31 @@
          <button id="jaiunecartecadeau"><a href="/html/cartek.html">J'ai une carte cadeau</a> </button>
         </div>
 
-       <div id="formulaire">
+        <!-- FORM ETAPE 1 -->
+       <div id="formulaire-e1">
          <form>
             <h2 class="fjalla">Personnalisation</h2>
             <img id="tunnel" src="../images/tunnel1.png">
 
             <form>
                 <legend class="fjalla">La durée</legend>
-                <label><input type="checkbox" name="checkbox" />30min - 30€</label><br>
-                <label><input type="checkbox" name="checkbox" />45min - 45€</label><br>
-                <label><input type="checkbox" name="checkbox" />60min - 60€</label>
+                <label><input type="radio" name="radio" />30min - 30€</label><br>
+                <label><input type="radio" name="radio" />45min - 45€</label><br>
+                <label><input type="radio" name="radio" />60min - 60€</label>
             </form>
 
             <form>
-                <legend class="fjalla">Choix des huiles</legend>
+                <legend class="fjalla">Choix de l'huile</legend>
                 <div>
-                   <label><input type="checkbox" name="checkbox" />Huile de lavande</label>
+                   <label><input type="radio" name="radio" />Huile de lavande</label>
                    <img src="../images/info.png" alt="Infos">
                 </div>
                 <div>
-                   <label><input type="checkbox" name="checkbox" />Huile d'amande douce</label>
+                   <label><input type="radio" name="radio" />Huile d'amande douce</label>
                    <img src="../images/info.png" alt="Infos">
                 </div>
                 <div>
-                   <label><input type="checkbox" name="checkbox"/>Huile d'argan</label>
+                   <label><input type="radio" name="radio"/>Huile d'argan</label>
                    <img src="../images/info.png" alt="Infos">
                 </div>
             </form>
@@ -63,9 +64,206 @@
                 <label for="lieu" class="lieu">Lieu</label>
                 <input type="lieu" name="lieu" id="lieu" required/><br>
 
-                <a href="../index.html/jereserve2.html"><input class="suivant" type="submit" value="Suivant"/></a> 
+                <button><input id="suivant1" type="submit" value="Suivant"/></button>
          </form>
         </div>
+        <!-- FORM ETAPE 1 -->
+
+        <!-- FORM ETAPE 2 -->
+       <div id="formulaire-e2">
+            <form>
+               <h2 class="fjalla">Choix de votre masseur</h2>
+               <img id="tunnel" src="../images/tunnel2.png">
+   
+               <div class="lesmasseurs">
+                   <!-- <div class="profilmasseur">
+                       <img class="photomasseur" src="../images/hommebrun.jpg" alt="LEBLANC Victor">
+                       <h3>LEBLANC Victor</h3>
+
+                       <div id="cache1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dolore illo dolores quia nemo doloribus quaerat, magni numquam repellat reprehenderit.</p>
+                     </div>
+
+                       <img id="tiret1" src="../images/tiret.png" alt="Chevron down">
+                   </div> -->
+        
+                   <form class="lesmasseurs">
+
+                    <label>
+                        <input type="radio" name="radio" />
+                        <div class="profilmasseur">
+                            <img class="photomasseur" src="../images/hommebrun.jpg" alt="LEBLANC Victor">
+                            <h3>LEBLANC Victor</h3>
+     
+                            <div id="cache1">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dolore illo dolores quia nemo doloribus quaerat, magni numquam repellat reprehenderit.</p>
+                          </div>
+     
+                            <img id="tiret1" src="../images/tiret.png" alt="Chevron down">
+                        </div>
+                    </label>
+
+
+                    <label>
+                        <input type="radio" name="radio" />
+                        <div class="profilmasseur">
+                        <img class="photomasseur" src="../images/laurencedupont.jpg" alt="DUPONT Laurence">
+                        <h3>DUPONT Laurence</h3>
+ 
+                      <div id="cache2">
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dolore illo dolores quia nemo doloribus quaerat, magni numquam repellat reprehenderit.</p>
+                      </div>
+ 
+                        <img id="tiret2" src="../images/tiret.png" alt="Chevron down">
+                    </div>
+                </label>
+
+                    
+                    <label>
+                        <input type="radio" name="radio" />
+                        <div class="profilmasseur">
+                            <img class="photomasseur" src="../images/emiliecharles.jpg" alt="CHARLES Emilie">
+                            <h3>CHARLES Emilie</h3>
+     
+                          <div id="cache3">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dolore illo dolores quia nemo doloribus quaerat, magni numquam repellat reprehenderit.</p>
+                          </div>
+                         
+                            <img id="tiret3" src="../images/tiret.png" alt="Chevron down">
+                        </div>
+                    </label>
+                </form>
+
+                   <!-- <div class="profilmasseur">
+                       <img class="photomasseur" src="../images/laurencedupont.jpg" alt="DUPONT Laurence">
+                       <h3>DUPONT Laurence</h3>
+
+                     <div id="cache2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dolore illo dolores quia nemo doloribus quaerat, magni numquam repellat reprehenderit.</p>
+                     </div>
+
+                       <img id="tiret2" src="../images/tiret.png" alt="Chevron down">
+                   </div>
+                   
+
+                   <div class="profilmasseur">
+                       <img class="photomasseur" src="../images/emiliecharles.jpg" alt="CHARLES Emilie">
+                       <h3>CHARLES Emilie</h3>
+
+                     <div id="cache3">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dolore illo dolores quia nemo doloribus quaerat, magni numquam repellat reprehenderit.</p>
+                     </div>
+                    
+                       <img id="tiret3" src="../images/tiret.png" alt="Chevron down">
+                   </div> -->
+               </div>
+   
+               <button><input id="suivant2" type="submit" value="Suivant"/></button>
+               
+            </form>
+           </div>
+           <!-- FORM ETAPE 2 -->
+
+           <!-- FORM ETAPE 3 -->
+           <div id="formulaire-e3">
+            <form>
+               <h2 class="fjalla">Date et heure</h2>
+               <img id="tunnel" src="../images/tunnel3.png">
+   
+               <div class="horaires">
+                <div class="date">
+                   <h3>Selectionner une date</h3>
+                   <img src="../images/calendrier.jpg" alt="">
+                </div>
+   
+                <div class="horaire">
+                   <h3>Selectionner un horaire</h3>
+                   <img src="../images/horaires.png" alt="">
+                </div>
+               </div>
+   
+   
+               <button><input id="suivant3" type="submit" value="Suivant"/></button>
+            </form>
+           </div>
+           <!-- FORM ETAPE 3 -->
+
+           <!-- FORM ETAPE 4 -->
+           <div id="formulaire-e4">
+            <form>
+               <h2 class="fjalla">Identification</h2>
+               <img id="tunnel" src="../images/tunnel4.png">
+               
+              <div class="contenu">
+               <div class="connexion">
+                <form>
+                  <legend>J'ai déjà un compte</legend>
+                     <input type="email" name="email" id="email" placeholder="E-mail"/>
+                     <input type="password" name="mdp" id="mdp" placeholder="Mot de passe"/>
+   
+                  <div class="optionsconnexion">
+                     <label><input type="checkbox" name="checkbox" />Se souvenir de moi</label>
+                     <p><a href="#">Mot de passe oublié</a></p>
+                  </div>
+   
+                  <input class="meconnecter" type="submit" value="Me connecter"/>
+                </form>
+             </div>
+   
+             <div class="creeruncompte">
+              <legend>Nouvelle sur Zen Mom ?</legend>
+              <button id="creeruncompte">Créer un compte</button>
+             </div>
+            </div>
+   
+            </form>
+           </div>
+           <!-- FORM ETAPE 4 -->
+
+           <!-- FORM ETAPE 5 -->
+           <div id="formulaire-e5">
+            <form>
+               <h2 class="fjalla">Créer un compte</h2>
+               <img id="tunnel" src="../images/tunnel4.png">
+   
+              <div class="contenu">
+   
+             <div class="center">
+   
+               <div class="nomprenom">
+               <input type="lastname" name="lastname" id="lastname" placeholder="Nom"/>
+   
+               <input type="name" name="name" id="name" placeholder="Prénom"/><br>
+              </div>
+   
+               <input type="email" name="email" id="email" placeholder="E-mail"/><br>
+   
+               <input type="password" name="password" id="password" placeholder="Mot de passe"/><br>
+   
+   
+              <div class="birthdate">
+               <label for="birthdate" class="birthdate">Date de naissance</label>
+               <input type="date" name="birthdate" id="birthdate" value="2023-10-24" min="1965-01-01" max="2004-12-31"/><br>
+              </div>
+              
+              </div>
+   
+               <p>En cliquant sur <b>Créer un compte</b>, vous acceptez nos <b>Conditions générales</b>. Découvrez comment nous recueillons, utilisons et partageons vos données en lisant notre <b>Politique de confidentialité</b> et comment nous utilisons les cookies et autres technologies similaires en consultant notre <b>Politique d’utilisation des cookies</b>. Vous recevrez peut-être des notifications par texto de notre part et vous pouvez à tout moment vous désabonner.</p>
+   
+               <input class="valider" type="submit" value="Créer mon compte"/>
+   
+               <div id="between"></div>
+   
+               <button><input class="seconnecter" type="submit" value="Se connecter"/></button> 
+              
+   
+              </div>
+   
+            </form>
+       
+           </div>
+           <!-- FORM ETAPE 5 -->
+
        </section>
 
     </main>
@@ -73,7 +271,13 @@
     <footer>
 
     </footer>
+ elyona-branch
+
+    <script src="../javascript/script-jereserve.js"></script>
+
+
     <script src="/javascript/script.js"></script>
+main
 </body>
 
 </html>
