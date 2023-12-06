@@ -9,6 +9,7 @@
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: 'Fjalla One';
     src: url('../fonts/Fjalla_One/FjallaOne-Regular.eot');
@@ -20,6 +21,7 @@
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: 'Prata';
     src: url('../fonts/Prata/Prata-Regular.eot');
@@ -48,7 +50,7 @@ body {
 
 /*debut header*/
 
-header{
+header {
     height: 70px;
     width: 100%;
     display: flex;
@@ -56,7 +58,7 @@ header{
 }
 
 header nav ul {
-    height: 50px; 
+    height: 50px;
     display: flex;
     list-style: none;
     align-items: center;
@@ -64,19 +66,19 @@ header nav ul {
 }
 
 header nav ul li {
-    margin : 0 20px;
+    margin: 0 20px;
     padding: 30px;
 }
 
-header nav ul li a{
+header nav ul li a {
     text-decoration: none;
     color: #5D3222;
     font-family: 'Fjalla One';
     margin: 10px;
 }
 
-#logo{
-    font-family:'Alex Brush';
+#logo {
+    font-family: 'Alex Brush';
     font-size: 60px;
     color: #5D3222;
     margin-left: 30px;
@@ -99,7 +101,7 @@ aside {
     height: 100%;
 }
 
-#description-massage {
+#infoMassage {
     width: 100%;
     height: 100%;
     background-color: #F2E7DC;
@@ -112,19 +114,7 @@ aside {
     color: #5D3222;
 }
 
-#description-massage p {
-    width: 90%;
-    height: 100%;
-}
-
-aside img {
-    height: 65%;
-    width: 100%;
-    border-top-left-radius: 80px;
-    border-top-right-radius: 80px;
-}
-
-.title {
+#infoMassage h2 {
     font-family: 'Fjalla One';
     font-style: normal;
     font-weight: 400;
@@ -133,11 +123,20 @@ aside img {
     margin-top: 20px;
 }
 
-.description {
+#infoMassage p {
+    width: 90%;
+    height: 100%;
     font-family: 'Prata';
     font-style: normal;
-    font-size: 12px;
+    font-size: 15px;
     margin: 10px;
+}
+
+aside img {
+    height: 65%;
+    width: 100%;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
 }
 
 section {
@@ -156,7 +155,8 @@ section {
     height: 10%;
 }
 
-#jereservepourmoi, #jaiunecartecadeau {
+#jereservepourmoi,
+#jaiunecartecadeau {
     width: 49%;
     height: 100%;
     border-top-left-radius: 20px;
@@ -251,7 +251,7 @@ form img {
     height: 25px;
     border-radius: 5px;
 }
- 
+
 .lieu {
     margin-left: 25px;
     margin-top: 10px;
@@ -262,6 +262,7 @@ form img {
     font-size: 20px;
 
 }
+
 
 /* début étape 2*/
 
@@ -533,6 +534,8 @@ border-radius: 5px;
 }
 
 
+
+ main
 /********/
 
 
