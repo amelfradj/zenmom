@@ -26,7 +26,7 @@
         <div id="container_formulaire_con">
             <!--Début du formulaire de connexion-->
             <h2>Connexion</h2>
-                <form action="../php/login.php" method="post">
+                <form action="../php/login.php"  method="post">
                     <label for="email">E-mail :</label><br>
                     <input type="email" id="email" name="email"><br><br>
                     <label for="pwd">Mot de passe :</label><br>
@@ -36,15 +36,15 @@
                     <a href="#">Mot de passe oublié ?</a><br><br>
                     <button id="btn_con" href="compte2.html ">Connexion</button>
                     <br>
-                    <button id="creeruncompte">Créer un compte</button>
                 </form> 
+                <button id="creeruncompte" href="#container_formulaire_ins">Créer un compte</button>
                 <!--fin du formulaire--> 
         </div>
 
         <div id="container_formulaire_ins">
             <!--Début du formulaire de inscription-->
             <h2>Créer un compte</h2>
-                <form>
+                <form action="../php/traitement.php"  method="post">
                    <div class="nomprenom">
                    <input type="lastname" name="lastname" id="lastname" placeholder="Nom" required/>
        
@@ -62,7 +62,8 @@
        
                    <p>En cliquant sur <b>Créer un compte</b>, vous acceptez nos <b>Conditions générales</b>. Découvrez comment nous recueillons, utilisons et partageons vos données en lisant notre <b>Politique de confidentialité</b> et comment nous utilisons les cookies et autres technologies similaires en consultant notre <b>Politique d’utilisation des cookies</b>. Vous recevrez peut-être des notifications par texto de notre part et vous pouvez à tout moment vous désabonner.</p>
        
-                   <button id="valider" type="submit">Créer mon compte</button>
+                   <button id="valider" type="submit" >Créer mon compte</button>
+                   <button type="button" id="annuler">Annuler</button>
         </form>
         </div>
                 <!--fin du formulaire--> 
